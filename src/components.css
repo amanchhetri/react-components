@@ -1,0 +1,105 @@
+select {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 1;
+  border-radius: 1em;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: black;
+  background-color: var(--darkgray);
+  cursor: pointer;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  border-radius: .25em;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: white;
+  background-color: #2b2b2b;
+  transition: .25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #92918f;
+}
+
+select option {
+  background-color: white;
+  color: gray;
+  width: 310px;
+  padding: 10px 15px;
+  height: 20px;
+  cursor: pointer;
+}
+
+select option:hover {
+  padding-left: 25px;
+  width: 270px;
+  color: #EC6F66;
+}
+
+button {
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+.primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.secondary {
+  color: white;
+  background-color: rgba(97, 91, 91, 0.863);
+}
+.success {
+  color: white;
+  background-color: rgb(36, 187, 36);
+}
+.warning {
+  color: white;
+  background-color: rgb(255, 166, 0);
+}
+.danger {
+  color: white;
+  background-color: red;
+}
+.light {
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+.small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
