@@ -1,6 +1,6 @@
 {
   "name": "test-tark-components",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React components including Button and Dropdown.",
   "author": "Aman Chhetri",
   "license": "MIT",
@@ -49,7 +49,6 @@
     "html-webpack-plugin": "^5.5.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
-    "react-doc-generator": "^1.2.5",
     "react-dom": "^17.0.2",
     "rollup": "^2.64.0",
     "rollup-plugin-babel": "^4.4.0",
