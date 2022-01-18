@@ -44,15 +44,15 @@ Dropdown.propTypes = {
 Button.propTypes = {
   variant: PropTypes.string,
   size: PropTypes.string,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
 }
 
-Dropdown.default = {
-  data: [],
+Dropdown.defaultProps = {
+  data: ['Option 1', 'Option 2', 'Option 3'],
 }
 
-Button.default = {
-  variant: null,
+Button.defaultProps = {
+  variant: 'Light',
   size: 'medium',
   label: 'Button'
 }

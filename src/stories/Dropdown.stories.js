@@ -15,4 +15,9 @@ Simple.args = {
     data: ['A', 'B', 'C', 'D']
 }
 
+export const Default = Template.bind({});
+Default.args = {
+    
+}
+
 // export const Dropdown2 = Template.bind({});
